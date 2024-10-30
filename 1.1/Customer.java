@@ -18,21 +18,33 @@ public class Customer {
         return startTime;
     }
 
-    public void setStartTime(long startTime) {
-        this.startTime = startTime;
+    public void setStartTime() {
+        this.startTime = System.currentTimeMillis();
     }
 
     public long getEndTime() {
         return endTime;
     }
 
-    public void setEndTime(long endTime) {
-        this.endTime = endTime;
+    public void setEndTime() {
+        this.endTime = System.currentTimeMillis();
     }
 
     // Method to calculate the time spent
     public long getTimeSpent() {
         return endTime - startTime;
+    }
+
+    // Converting to seconds
+    public long timeToSeconds() {
+        long time = getTimeSpent();
+        return time / 1000;
+    }
+    
+    // Converting to minutes
+    public long timeToMinutes() {
+        long time = getTimeSpent();
+        return time / 1000 / 60;
     }
 }
 
