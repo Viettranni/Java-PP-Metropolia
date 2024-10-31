@@ -9,5 +9,18 @@ public class ServiceSystem {
 
         // Start serving customers
         servicePoint.serve();
+
+        // Display the AVG service time
+        servicePoint.calculateAverageServiceTime();
+
+        // Generate a specified number of customers
+        int numCustomers2 = 3;
+        generator.generateCustomers(numCustomers2);
+
+        // Start serving customers
+        servicePoint.serve();
+
+        // Display the AVG service time
+        servicePoint.calculateAverageServiceTime();
     }
 }
