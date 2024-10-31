@@ -5,6 +5,8 @@ public class EventSimulationTest {
         EventList eventList = new EventList();
         Random random = new Random();
 
+        // Since the program is generating events to the current time and randomises the event time, the PriorityQueue will but them in the correct timeline to execute each event.
+
         // a) Generate a list of events with random event times
         for (int i = 0; i < 5; i++) {
             long randomEventTime = System.currentTimeMillis() + random.nextInt(1000);
