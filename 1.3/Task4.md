@@ -1,0 +1,5 @@
+# Familiarize yourself with a few distributions that could be used in the simulator for experimentation. These distributions could be used in the following situations. Find answers online. You can also study other distributions. For example, Google "real life example of normal distribution".
+
+The Binomial Distribution is ideal for simulations where each trial outcome is either a "success" or "failure." In a manufacturing simulation, for example, it can model defect rates by running multiple trials and counting how often defects appear. In digital marketing, it can simulate click-through rates by determining how many users click on ads out of a set number shown, based on historical success probabilities.
+
+This distribution helps in modeling scenarios where success/failure patterns are critical to predict outcomes and make informed decisions in areas like quality assurance, health studies, and customer behavior analysis.
