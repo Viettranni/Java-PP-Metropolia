@@ -1,3 +1,5 @@
+package Task5;
+
 public class ClockTest {
     public static void main(String[] args) {
         // Get the singleton Clock instance

@@ -1,3 +1,5 @@
+package Task5;
+
 public class Clock {
     // Singleton instance ( Can be named any )
     private static Clock instance; 

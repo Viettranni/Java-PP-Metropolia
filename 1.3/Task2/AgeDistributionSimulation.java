@@ -1,3 +1,4 @@
+package Task2;
 import java.util.Random;
 import java.util.HashMap;
 import java.util.Map;
