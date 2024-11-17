@@ -1,5 +1,6 @@
 package Task7;
 
+
 public class Customer {
     private double arrivalTime;
 
